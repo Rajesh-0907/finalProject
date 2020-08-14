@@ -1,0 +1,262 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+  background-color: gray;
+  font-family: sans-serif;
+}
+a{
+ text-decoration:none;
+ color:white;
+font-size:15px;
+position: absolute;
+   left: 57%;
+   top: 95%;
+   transform: translate(-57%,-95%);
+
+}
+#restart{
+ background-color: white;
+ width: 70px;
+ height: 40px;
+ position: relative;
+ left: 75%;
+ top: 1%;
+ border-radius: 40px;
+
+}
+i{ 
+ position: relative;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+  text-align: center;
+  color: red;
+}
+#restart:hover {
+  width: 80px;
+  height: 50px;
+   border-radius: 50px;
+
+}
+
+#include{
+  color: white;
+  display: none;
+}
+
+#main-body-container{
+ display: flex;
+  background-color:  black;
+  width: 100%;
+  height: 98vh;
+}
+#sidebar{
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  width: 17%;
+  height:98vh;
+  box-shadow: 1px 1px  #1de24e;
+  word-wrap: wrap;
+}
+
+#sidebar p{
+  text-align: center;
+  position: relative;
+  top: 50%;
+
+
+
+}
+
+#top{
+   background: linear-gradient(to right, #e51491 0%, #ff99cc 100%);
+   position: absolute;
+   left: 50%;
+   top: 0%;
+   transform: translate(-50%, -0%);
+   width: 700px;
+   padding: 10px;
+   text-align: center;
+   color: white;
+   font-size: 30px;
+   box-sizing: border-box;
+   box-shadow: 1px 1px #2b163d;
+
+}
+#game{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  width: 900px;
+  height:250px;
+  display: flex;
+  box-sizing: border-box;
+
+}
+.color{
+
+  width: 100px;
+  height: 200px;
+  margin: 24px;
+  margin-right: 50px;
+
+
+
+}
+
+#red{
+  background-color: red;
+
+}
+
+#blue{
+  background-color: blue;
+
+
+}
+#green{
+  background-color: green;
+
+}
+#yellow{
+  background-color: yellow;
+
+
+}
+
+#orange{
+  background-color: orange;
+
+
+}
+@media only screen and (max-width: 767px) {
+
+  .color{
+
+    width: 90px;
+    height: 200px;
+
+
+
+
+  }
+  #game{
+    width: 500px;
+    height: 250px;
+    left: 55%;
+  }
+
+  #top{
+     width: 500px;
+     left: 55%;
+
+
+
+  }
+#restart{
+
+   position: relative;
+   left: 40%;
+   top: 80%;
+   transform: translate(-50%,-80%);
+
+
+  }
+}
+@media only screen and (min-width: 768px) {
+
+  .color{
+
+    width: 90px;
+    height: 200px;
+
+
+
+
+  }
+  #game{
+    width: 500px;
+    height: 250px;
+    left: 55%;
+  }
+
+  #top{
+     width: 500px;
+     left: 55%;
+
+
+
+  }
+
+#restart{
+
+   position: relative;
+   left: 40%;
+   top: 80%;
+   transform: translate(-50%,-80%);
+
+
+  }
+}
+@media only screen and (min-width: 992px) {
+  .color{
+
+
+    width: 100px;
+    height: 200px;
+
+
+
+  }
+  #game{
+    left: 59%;
+    width: 850px;
+    height: 250px;
+
+  }
+
+  #top{
+     width: 500px;
+     height: 100px;
+     left: 50%;
+
+}
+#restart{
+
+ position: relative;
+ left: 75%;
+ top: 1%;
+ transform: translate(-75%,-1%);
+
+
+}
+}
+@media only screen and (min-width: 1300px) {
+
+  #game{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #top{
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -0%);
+
+
+
+
+  }
+#restart{
+
+ position: relative;
+ left: 75%;
+ top: 1%;
+ transform: translate(-75%,-1%);
+
+
+}
+}
+
+
