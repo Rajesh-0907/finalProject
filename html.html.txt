@@ -9,11 +9,10 @@
   </head>
   <body>
 
-     <div  w3-include-html="index.html" id="include">
-      </div>
+    
     <div id="main-body-container">
       <div id="sidebar" class="">
-      <p id="nam">welcome <br>nithya devi is a brilliant girl</p>
+      <p id="nam">welcome </p>
     </div>
 
       <div id="game">
