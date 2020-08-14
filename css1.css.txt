@@ -1,0 +1,21 @@
+*{
+  user-select: none;
+}
+
+body{
+  border: 3px solid black;
+  height: 100vh;
+background: linear-gradient(to bottom, #00ffff 0%, #ff99cc 100%);
+}
+.wrapper{
+  border:1px solid black;
+  width: 500px;
+  height:600px;
+  box-shadow: 5px 10px #888888;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
